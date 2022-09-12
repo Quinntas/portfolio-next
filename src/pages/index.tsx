@@ -53,7 +53,7 @@ export const getStaticProps: GetStaticProps = async () => {
     "skills": [
       {
         "image": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/python.svg",
-        "title": "PYTHON",
+        "title": "Python",
         "link": ""
       },
       {
@@ -64,11 +64,6 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "image": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg",
         "title": "Javascript",
-        "link": ""
-      },
-      {
-        "image": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
-        "title": "Typescript",
         "link": ""
       },
       {
@@ -84,6 +79,12 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "image": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/php.svg",
         "title": "Php",
+        "link": ""
+      },
+
+      {
+        "image": "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
+        "title": "Typescript",
         "link": ""
       },
       {
@@ -116,14 +117,12 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl41946uh4f9k0ezzm3mqjkn5",
         "title": "Luna",
-        "description": "A alexa 2.0",
+        "description": "A assistente virtual re-inventada, capaz de adaptar suas respostas a personalidade de usuario, feita para pessoas do dia a dia que estao com muito trabalho para fazer e sem tempo para administrar seu tempo.",
         "demo": "",
         "github": "",
         "technologies": [
           "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/python.svg",
-          "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
           "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
-          "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/prisma.svg",
         ],
         "image": {
           "url": "https://media.graphassets.com/resize=width:700/output=format:webp/3ZIRqpAJTkmCKLNjS1N1"
@@ -132,7 +131,7 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl4196ljg4fde0c0zjrk065a2",
         "title": "Spectre",
-        "description": "Spectre eh uma API que visa facilitar a vida do programador medio ao avancado, a Spectre pode manejar com facilidade todas as suas base de dados. Assim vc pode escalar sua aplicacao ate a lua.",
+        "description": "Spectre eh uma API que visa facilitar a vida do programador medio ao avancado, ela pode manejar com facilidade todas as suas base de dados. Assim vc pode escalar sua aplicacao ate a lua.",
         "demo": "",
         "github": "",
         "technologies": [
@@ -147,11 +146,12 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl4198jlh4fb10b0yca75wulh",
         "title": "Riki",
-        "description": "Um sistema de notificacoes totalmente personalizavel",
+        "description": "Um sistema de notificacoes feito para pessoas quem tem problemas de atencao, ou tem uma vida corrida.",
         "demo": "",
         "github": "",
         "technologies": [
           "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/python.svg",
+          "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
         ],
         "image": {
           "url": "https://media.graphassets.com/resize=width:700/output=format:webp/GO77xOZAQQicldtn7Md5"
@@ -160,11 +160,11 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl5b8iefippxy0cy9quph5vz4",
         "title": "Razor",
-        "description": "Imagine o YouTrack totalmente integrado com o GitHub",
+        "description": "A forma mais elegante de trabalho em equipe, um issue tracker totalmente integrado com o github onde voce pode setar tarefas, horarios e sprints",
         "demo": "",
         "github": "",
         "technologies": [
-          "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/python.svg",
+          "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg",
         ],
         "image": {
           "url": "https://media.graphassets.com/resize=width:700/output=format:webp/hLFd1HQL8udbhsxB9hgv"
@@ -175,7 +175,7 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl41bb6ga4i6v0c0zc4nud16j",
         "title": "Oracle",
-        "description": "Uma IA que faz web scrappings",
+        "description": "Uma IA que faz web scrapping",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/AVIK9iB0RWi1vdWa3aFX"
@@ -183,8 +183,8 @@ export const getStaticProps: GetStaticProps = async () => {
       },
       {
         "id": "cl41bd91j4h2j0b14h717fxus",
-        "title": "",
-        "description": "",
+        "title": "BroodMother",
+        "description": "Meu propio servidor lixus com base de dados persistente",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/NVLrClLvSIa2D3SfZnoR"
@@ -192,8 +192,8 @@ export const getStaticProps: GetStaticProps = async () => {
       },
       {
         "id": "cl41besg84ibz0b0y517qkj02",
-        "title": "",
-        "description": "",
+        "title": "Zeus",
+        "description": "Um servico de analytics para websites",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/7c2yNM09TH6geANJNqPr"
@@ -201,8 +201,8 @@ export const getStaticProps: GetStaticProps = async () => {
       },
       {
         "id": "cl41bit6l4j2h0ezz5tk59n5j",
-        "title": "",
-        "description": "",
+        "title": "Tinker",
+        "description": "Meu CLI personalizado para distruicoes Linux",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/vavG7qW5TcO74SAhanRR"
@@ -210,8 +210,8 @@ export const getStaticProps: GetStaticProps = async () => {
       },
       {
         "id": "cl41bkdna4iz10c0z9zkv07wd",
-        "title": "",
-        "description": "",
+        "title": "Mars",
+        "description": "Um firewall feito para controlar e distruir requests em servidores linux",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/RAW2soplR575pvfV6UoF"
@@ -219,8 +219,8 @@ export const getStaticProps: GetStaticProps = async () => {
       },
       {
         "id": "cl44471kx052f0b0ygn5837po",
-        "title": "",
-        "description": "",
+        "title": "Clockwork",
+        "description": "Meu sistema de calendario e eventos",
         "link": "",
         "icon": {
           "url": "https://media.graphassets.com/resize=height:40/output=format:webp/p5ronUORsyUAj3Kq8YfK"

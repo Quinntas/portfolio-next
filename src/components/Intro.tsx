@@ -61,7 +61,7 @@ const Intro: FC = () => {
         transition={{ duration: 0.4, delay: 1.4 }}
         className="text-3xl text-center z-[1] overflow-hidden"
       >
-        {`Sou Quintas, desenvolvedor, analista e entusiasta`}
+        {`Me chamo Quintas, sou desenvolvedor, analista e entusiasta da tecnologia.`}
       </m.p>
 
       <m.a

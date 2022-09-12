@@ -20,16 +20,16 @@ const Who: FC = () => {
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          Meu nome eh Caio Quintas. Eu sou um back end developer que tambem se especializa em analize de dados. Tambem gosto de{" "}
+          Sou um desenvolvedor de aplicacoes que também se especialiou em analize de dados. Gosto muito de{" "}
           <a
             className="underline underline-offset-2"
             href="https://github.com/Quinntas"
             target="_blank"
             rel="noopener noreferrer"
           >
-            comitar muito
+            comitar no github
           </a>
-          , ouvir musica e jogar
+          , ouvir musica e jogar.
         </p>
       </div>
     </div>

@@ -46,14 +46,4 @@ export const socialLinks = [
     icon: "/discord.png",
     link: "https://discord.com/users/313086153421094912",
   },
-  {
-    title: "Codepen",
-    icon: "/codepen.png",
-    link: "",
-  },
-  {
-    title: "My blog",
-    icon: "/blog.png",
-    link: "",
-  },
 ];

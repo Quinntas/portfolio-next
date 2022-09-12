@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="/rounded-avatar.png"
+          href="/icon.png"
           type="image/x-icon"
         />
 

@@ -14,7 +14,7 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
         data-scroll-speed="-1"
         className="text-center text-3xl lg:text-4xl"
       >
-        Minhas Habilidades e Conhecimento
+        Minhas Habilidades e Conhecimentos
       </h1>
       <p
         data-scroll
@@ -22,7 +22,7 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
         data-scroll-speed="1"
         className="description text-lg text-center my-[30px]"
       >
-        Tecnologias e linguagens que eu uso todos os dias
+        Tecnologias e linguagens que uso no dia a dia
       </p>
       <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (

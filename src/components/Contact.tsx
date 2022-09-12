@@ -24,7 +24,7 @@ const Contact: FC = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="John Doe"
+                placeholder=" John Doe"
                 required
                 minLength={3}
               />
@@ -33,7 +33,7 @@ const Contact: FC = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="johndoe@gmail.com"
+                placeholder=" johndoe@gmail.com"
                 required
               />
               <label htmlFor="subject">Assunto</label>
@@ -41,7 +41,7 @@ const Contact: FC = () => {
                 type="text"
                 id="subject"
                 name="subject"
-                placeholder="Quero falar com voce"
+                placeholder=" Quero falar com voce"
                 required
               />
               <button className="mt-2 py-2 text-white rounded transition duration-300 flex justify-center items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]">
