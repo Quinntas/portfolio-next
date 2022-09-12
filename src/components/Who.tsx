@@ -15,27 +15,21 @@ const Who: FC = () => {
       />
       <div>
         <h1 data-scroll data-scroll-speed="0.5" className="title text-[40px]">
-          Who am I?
+          Quem sou eu ?
         </h1>
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          My name is Nguyen Anh Phong. I&apos;m a
-          {false ? ` ${new Date().getFullYear() - 2007} years old` : ""}{" "}
-          frontend developer living in Hanoi, Vietnam. I started learning web
-          development when I was 13. Since then, I have made a lot of projects,
-          from basic HTML pages to complex projects like a React library. I hope
-          to be a great developer and get my dream job in the future. Besides
-          coding, I also like{" "}
+          Meu nome eh Caio Quintas. Eu sou um back end developer que tambem se especializa em analize de dados. Tambem gosto de{" "}
           <a
             className="underline underline-offset-2"
-            href="https://blog.napthedev.com/"
+            href="https://github.com/Quinntas"
             target="_blank"
             rel="noopener noreferrer"
           >
-            writing blog posts
+            comitar muito
           </a>
-          , listening to music and playing video games
+          , ouvir musica e jogar
         </p>
       </div>
     </div>

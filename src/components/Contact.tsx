@@ -5,7 +5,7 @@ const Contact: FC = () => {
   return (
     <div className="pb-20">
       <h1 className="text-center text-4xl mt-14 md:mt-28 mb-10">
-        Get in touch
+        Fale comigo
       </h1>
       <div
         data-scroll
@@ -19,7 +19,7 @@ const Contact: FC = () => {
               method="POST"
               className="flex flex-col gap-2"
             >
-              <label htmlFor="name">Your name</label>
+              <label htmlFor="name">Seu nome</label>
               <input
                 type="text"
                 id="name"
@@ -28,7 +28,7 @@ const Contact: FC = () => {
                 required
                 minLength={3}
               />
-              <label htmlFor="email">Your email</label>
+              <label htmlFor="email">Seu email</label>
               <input
                 type="email"
                 id="email"
@@ -36,21 +36,21 @@ const Contact: FC = () => {
                 placeholder="johndoe@gmail.com"
                 required
               />
-              <label htmlFor="subject">Subject</label>
+              <label htmlFor="subject">Assunto</label>
               <input
                 type="text"
                 id="subject"
                 name="subject"
-                placeholder="I want to talk to you"
+                placeholder="Quero falar com voce"
                 required
               />
               <button className="mt-2 py-2 text-white rounded transition duration-300 flex justify-center items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]">
-                Send
+                Enviar
               </button>
             </form>
           </div>
           <div className="flex-1">
-            <h1 className="text-xl mb-3">Other places</h1>
+            <h1 className="text-xl mb-3">Outros meios</h1>
             {socialLinks.map((item) => (
               <a
                 key={item.title}

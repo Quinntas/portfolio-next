@@ -23,6 +23,8 @@ export const canvasImages = [
   "git",
   "vite",
   "webpack",
+  "python",
+  "java"
 ].map(
   (icon) =>
     `https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${icon}.svg&w=50&h=50`
@@ -32,26 +34,26 @@ export const socialLinks = [
   {
     title: "Github",
     icon: "/github.png",
-    link: "https://github.com/napthedev",
+    link: "https://github.com/Quinntas",
   },
   {
     title: "Facebook",
     icon: "/facebook.png",
-    link: "https://www.facebook.com/napthedev",
+    link: "https://www.facebook.com/profile.php?id=100009440831935",
   },
   {
     title: "Discord",
     icon: "/discord.png",
-    link: "https://discord.com/users/877882975855992852",
+    link: "https://discord.com/users/313086153421094912",
   },
   {
     title: "Codepen",
     icon: "/codepen.png",
-    link: "https://codepen.io/enaypi",
+    link: "",
   },
   {
     title: "My blog",
     icon: "/blog.png",
-    link: "https://blog.napthedev.com",
+    link: "",
   },
 ];
