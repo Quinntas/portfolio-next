@@ -20,16 +20,16 @@ const Who: FC = () => {
 
         {/* Hide my age :v */}
         <p data-scroll className="text-lg text-gray-200" id="story">
-          Sou um desenvolvedor de aplicacoes que também se especialiou em analize de dados. Gosto muito de{" "}
+          Sou um desenvolvedor de aplicações que também se especializou em análise de dados. Gosto de compartilhar minhas ideias e experiência no {" "}
           <a
             className="underline underline-offset-2"
             href="https://github.com/Quinntas"
             target="_blank"
             rel="noopener noreferrer"
           >
-            comitar no github
+            github
           </a>
-          , ouvir musica e jogar.
+          , jogar e aprecio ainda mais ouvir música.
         </p>
       </div>
     </div>

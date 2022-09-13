@@ -117,7 +117,7 @@ export const getStaticProps: GetStaticProps = async () => {
       {
         "id": "cl41946uh4f9k0ezzm3mqjkn5",
         "title": "Luna",
-        "description": "A assistente virtual re-inventada, capaz de adaptar suas respostas a personalidade de usuario, feita para pessoas do dia a dia que estao com muito trabalho para fazer e sem tempo para administrar seu tempo.",
+        "description": "A assistente virtual reinventada, capaz de adaptar suas respostas a personalidade de usuario, feita para pessoas do dia a dia que estao com muito trabalho para fazer e sem tempo para administrar seu tempo.",
         "demo": "",
         "github": "",
         "technologies": [
